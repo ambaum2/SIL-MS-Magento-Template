@@ -1,0 +1,447 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Ubuntu+Condensed);
+body {background: #020547;color:#341b00;}
+
+h1, h2, h3, h4, h5 {color:#970e5a;}
+.well {
+	background:#cccccc;
+}
+h4 {
+	font-size: 18px;
+  font-weight: 600;
+}
+.white-well {
+	background: #ffffff;
+	padding-left:30px;
+}
+.text-ms-feature {
+	color:#341B00;
+}
+.engage-text {
+	font-family: 'Roboto Slab', serif;
+	color:#970e5a;
+	font-size:32px;
+	margin: 10px 10px 5px 5px;
+}
+.engage-link:hover {
+	text-decoration: none;
+}
+.ms-green-text {
+	color: #a2ad0d;
+}
+.ms-heading-product-text {
+
+}
+ .price-box .price, .text-ms-label, .text-ms-price {
+	/*font-family: 'Ubuntu Condensed', sans-serif;*/
+	color:#970e5a;
+}
+.product-view .price-box .text-ms-price .price, .products-grid .price-box .text-ms-price .price {
+	color: #BFC932;
+}
+.ms-no-left-right-pad {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.btn-ms-action {
+	background: #BFC932;
+	color:white;
+	cursor: auto;
+}
+.btn-ms-info {
+	background:#dddddd;
+	color:black;
+	cursor:auto;
+}
+.btn-ms-action-cart {
+	background: #BFC932;
+	color:black;
+}
+.btn-ms-action .badge, .btn-ms-info .badge {
+	color: #970e5a;
+	background:white;
+}
+.btn-ms-social {
+	padding: 0px 12px;
+	margin-top: -3px;
+	background: #BFC932;
+	color:black;
+	border: none;
+}
+.btn-ms-social a, .btn-ms-social .link-wishlist {
+	color: #000000;
+}
+.btn-ms-social a:hover, .btn-ms-social:hover {
+	color: #363333;
+	text-decoration:none;
+	background: #BFC932;
+}
+.offer-text {
+	font-weight:bold;
+	color: #341b00;
+	margin: 0px 10px 10px 8px;
+}
+.main-container .main .col-main .btn-engage {
+	margin-bottom:20px;
+	color:#ffffff;
+	font-weight:bold;
+	border-radius: 10px 10px 10px 10px; 
+	-moz-border-radius: 10px 10px 10px 10px; 
+	-webkit-border-radius: 10px 10px 10px 10px; 
+	background: #b0b931; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IwYjkzMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3NzgwMGEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #b0b931 0%, #77800a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b0b931), color-stop(100%,#77800a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b0b931 0%,#77800a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b0b931 0%,#77800a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b0b931 0%,#77800a 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #b0b931 0%,#77800a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b931', endColorstr='#77800a',GradientType=0 ); /* IE6-8 */
+}
+@media (min-width: 992px) {
+	.ms-home-about {
+		margin-left:-15px;
+		margin-top:20px;
+	}
+	.offer-text {
+		
+	}
+	.ms-right-sidbar-homepage {
+		/*background: url("/skin/frontend/default/default/images/ms/About_CMS.jpg") no-repeat scroll 50% 100% rgba(0, 0, 0, 0);*/
+    height: 416px;
+   }
+	.ms-home-about img {
+		width:243px;
+		height:58px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.ms-home-about {
+		margin-left:-15px;
+		margin-top:20px;
+	}
+	.ms-home-about img {
+		width:187px;
+		height:45px;
+	}
+	.offer-text {
+		margin:0px 10px 8px 8px;
+		font-size:11px;
+	}
+	.ms-right-sidbar-homepage {
+		/*background: url("/skin/frontend/default/default/images/ms/About_CMS.jpg") no-repeat scroll 50% 100% rgba(0, 0, 0, 0);*/
+    height: 322px;
+   }
+	.main-container .main .col-main .btn-engage {
+		margin-bottom:0px;
+		border-radius: 10px 10px 10px 10px; 
+		-moz-border-radius: 10px 10px 10px 10px; 
+		-webkit-border-radius: 10px 10px 10px 10px; 		
+	}
+}
+.ms-slideshow {padding-right:0px;}
+.main-container .main .col-main .btn-engage:hover {
+	color:black;
+}
+.ms-featured-and-ads {
+	text-align:left;
+}
+.ms-featured-and-ads .well {
+	padding-top:0px;
+}
+.product-essential {
+	background:none;
+}
+.product-view {
+	border:none;
+}
+.product-view h1 {
+	font-size: 28px;
+	font-weight: 600;
+}
+.product-view h2 {
+	color: #970e5a;
+	font-size:15px;
+	font-weight:bold;
+	padding: 0 0 1px;
+	margin 0 0 15px;
+}
+.product-view .product-img-box {
+	text-align:center;
+	background: transparent;
+}
+.product-img-box .ms-media-wrapper {
+	padding-right: 10px;
+}
+.product-img-box .product-image img {
+	/*max-height: 450px;
+	max-width: 350px;*/
+}
+
+.product-view .product-overview-box {
+	margin-top: 19px;
+	padding-top: 0px;
+}
+.product-view .product-overview-box h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.product-view .available-box {
+	padding: 10px 0px 10px 0px;
+}
+
+.product-view .price-box .price {
+	font-size:20px;
+	color: #970e5a;
+}
+.product-view .carousel-control.right, .product-view .carousel-control.left {
+	background: none;
+}
+#product-attribute-specs-table th {
+	color:black;
+	font-size: 14px;
+}
+#carousel-example-generic {
+	height:350px;
+	background:black;
+} /* making the height larger partly fixes the 'bounce' problem */
+#carousel-example-generic img {
+	margin:0 auto;
+	/*max-width: 400px;
+	max-height: 350px;*/
+}
+.main #carousel-example-generic {
+	height:auto;
+	background:none;
+}
+.main #carousel-example-generic img {
+	margin:0px;
+}
+.nav-pills .email-friend a {
+	padding:0px;
+}
+.ms-header {
+	background: #5679BC;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ms-header .header {
+	/*background:url("../images/MP_Banner_Art_1020x126.png") no-repeat #dcf1fd;*/
+	border-top:5px solid #0d2131;background:url("../images/MP_Banner_Art_1020x126.png") 50% 0 no-repeat #5679BC;border:none;
+	background-position: 50% 100%;
+	height: 126px;
+}
+.ms-header .topNavHolder {
+	height:30px;
+	background: #4346a6; /* Old browsers */
+	background: -moz-linear-gradient(top, #4346a6 0%, #05084d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4346a6), color-stop(100%,#05084d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4346a6 0%,#05084d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4346a6 0%,#05084d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4346a6 0%,#05084d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #4346a6 0%,#05084d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4346a6', endColorstr='#05084d',GradientType=0 ); /* IE6-9 */
+}
+.topNavHolder .headerTopLinks {
+	margin-bottom:0px;
+	min-height: inherit;
+}
+.topNavHolder .headerTopLinks a {
+	padding: 2px 10px 2px 10px;
+}
+
+.header #search_mini_form {
+	margin: 0px;
+}
+.header .navbar .nav,
+.header .navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+.header .navbar {
+	border:none;
+	margin-bottom: 0px;
+	min-height: 0;
+}
+.header .navbar-inner {
+  text-align:center;
+}
+.header .navbar a {
+	color:#341b00;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.topNavHolder .navbar a {
+	color: #ffffff;
+}
+.topNavHolder .navbar a:hover {
+	color: #000000;
+}
+.topNavHolder .navbar #search_mini_form .form-search {
+	margin-top: 3px;
+}
+.topNavHolder .navbar #search_mini_form input, .topNavHolder .navbar #search_mini_form button {
+	height: 20px;
+	padding: 0px 12px;
+}
+#headerMainMenu {margin-bottom:0px;min-height:inherit;position:absolute;top:126px;width:100%;}
+#headerMainMenu .navbar {margin-bottom:0px;}
+#headerMainMenu .nav li a {color:#ffffff;padding:5px 15px;}
+#headerMainMenu .nav .seperator {color:#a2ad0d;}
+#headerMainMenu .nav li {margin-right: 5px;}
+#headerMainMenu .nav li, #headerMainMenu .nav li a:hover { 
+	border-radius: 20px 20px 0px 0px; 
+	-moz-border-radius: 20px 20px 0px 0px; 
+	-webkit-border-radius: 20px 20px 0px 0px; 
+	background: #3a7542; /* Old browsers */
+	background: -moz-linear-gradient(top, #3a7542 0%, #1c4641 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a7542), color-stop(100%,#1c4641)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #3a7542 0%,#1c4641 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #3a7542 0%,#1c4641 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #3a7542 0%,#1c4641 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #3a7542 0%,#1c4641 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a7542', endColorstr='#1c4641',GradientType=0 ); /* IE6-9 */
+}
+#headerMainMenu .nav li a:hover {
+	color: black;
+}
+#headerMainMenu .mainLink {position:relative;}
+#headerMainMenu .mainLink .subLinks {text-decoration:none;}
+#headerMainMenu .mainLink .subMenu {display:none;position:absolute;z-index:100;left:0px;top:30px;text-align:left;padding:5px;border:1px solid #899BA5;background:white;}
+#headerMainMenu .mainLink .subMenu li {background:#ECF3F6 url(/skin/frontend/default/default/images/bkg_nav1.gif) 0 100% repeat-x;width:250px;padding:8px;}
+#headerMainMenu .mainLink .subMenu li a {color:black;display:block;}
+#headerMainMenu .mainLink .subMenu li a:hover {
+	background:#9DCECE;
+	color:black;
+	border-radius: 0px; 
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px; 	
+}
+#headerMainMenu .subMenu2 {display:none;position:absolute;z-index:150;left:50px;width:18em;margin-left:40px;text-align:left;padding:5px;border:1px solid #899BA5;background:white;margin-top:-10px;}
+#headerMainMenu .subMenu2 li {background:#ECF3F6 url(/skin/frontend/default/default/images/bkg_nav1.gif) 0 100% repeat-x;width:200px;padding:8px;}
+/* these fix the margin right for smaller screens (caused a scroll bar) */
+.header .topNavHolder  {
+	margin-right:0;
+}
+#headerLogoContainer {
+	margin-right:0;
+}
+#headerSearchMenu .nav-container {
+	height: 25px;
+	background: #3F2107;  
+}
+.main-container {
+	background:#424377;
+	text-align:center;
+}
+.main-container .main {
+	margin:0 auto;
+	background:#ffffff;
+}
+.main-container .main .col-main {
+	text-align:left;
+}
+.ms-homepage .ms-slideshow { /* div[class^='col-md-']*/
+	padding-left:0px;
+}
+.ms-right-sidbar-image {
+	margin: 0 auto;
+}
+@media (min-width: 992px) {
+	.ms-ads-sidebar {
+		width: 286px;
+		min-height: 200px;
+		margin-left: 37px;
+		background: #D2D2D2;
+		padding-top: 60px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.ms-ads-sidebar {
+		width: 220px;
+		min-height: 200px;
+		margin-left: 30px;
+		background: #D2D2D2;
+		padding-top: 0px;
+	}
+}
+@media (max-width: 767px) {
+	.ms-header .topNavHolder {
+		height: auto;
+	}
+	.ms-header .topNavHolder #ms-header-top-menu li a, 
+	.ms-header .topNavHolder #ms-header-top-menu li,
+	.ms-header .topNavHolder #ms-header-top-menu ul  {
+		display: block;
+		float: none;
+	}
+	.topNavHolder #ms-header-top-menu #search_mini_form .form-search .btn {
+		width: 65%;
+		height: 30px;
+	}
+	.topNavHolder #ms-header-top-menu #search_mini_form #search {
+		width: 65%;
+		height: 30px;
+		margin: 0 auto;
+	}
+}
+.footer {
+	background: url("../images/ms/Footer_BKGD.jpg");
+}
+.footer .nav {
+	float:none;
+	display:inline-block;
+	color:white;
+	margin-top:20px;
+}
+.footer .nav li a {
+	color:white;
+}
+.footer .nav li a:hover {
+	background: #cfdb0e;
+	color:black;
+}
+.footer-container {
+	background: url("/skin/frontend/default/msil/images/footer.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+/* grid view */
+.col2-right-layout .products-grid {
+	width: auto;
+}
+.products-grid li.item {
+	width: 160px;
+}
+.products-grid .text-ms-label a {
+	font-size: 16px;
+	color:#970e5a;
+}
+.products-grid .btn-ms-action {
+	margin-top:5px;
+}
+.products-grid li.item {
+	height:350px;
+}
+.product-essential .ms-heading-product-text {
+	margin-top:10px;	
+}
+.product-essential .ms-heading-product-text a {
+	font-size: 1.3em;
+}
+
+.product-essential .short-description {
+	padding: 0 15px;
+}
+.product-essential .short-description ul {
+	list-style-position: outside;
+	margin-left: 18px;
+}
+
+/* sil */
+
+.mspace-main-homepage .col-main .subtitle {color:#333399;font-family: 'Droid Sans', sans-serif;font-size:16px;}

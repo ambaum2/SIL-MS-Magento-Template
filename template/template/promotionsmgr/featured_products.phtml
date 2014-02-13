@@ -1,0 +1,28 @@
+<?php 
+	$productData = $this->productGrid();
+	$_product =  Mage::getModel('catalog/product');
+?>
+	<?php if($productData) : ?>
+		<h4 class='text-ms-feature'>Featured Travel Packages and MarketSpace Products</h4>
+		<?php $i = 0; ?>
+		<?php foreach($productData as $prod) : ?>
+			<?php if($i % 3 == 0) : ?>
+				<div class="row">
+			<?php endif; ?>
+				<div class="col-xs-6 col-md-3 ms-featured-item">
+					<div class='thumbnail'>
+						<?php 
+							$currProd = $_product->load($prod['product_id']);
+						?>
+					  <a class="product-image" href="<?php print $currProd->getProductUrl() ?>">
+						<img src="<?php print $this->helper('catalog/image')->init($currProd, 'thumbnail')->resize(135)?>" /></a>
+						<a href="<?php print $currProd->getProductUrl() ?>"<h2 class='text-ms-label product-name'><?php print $currProd->getName() ?>"</h2></a>
+					</div>
+				</div>
+			<?php $i++ ?>
+			<?php if($i % 3 == 0) : ?>
+				</div>
+			<?php endif; ?>
+		<?php endforeach; ?>
+		</div>
+	<?php endif; ?>
