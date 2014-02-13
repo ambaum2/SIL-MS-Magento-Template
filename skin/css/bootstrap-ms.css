@@ -289,6 +289,9 @@ h4 {
 	height: 20px;
 	padding: 0px 12px;
 }
+.header .ms-navigation-toggle-btn {
+	background: white;
+}
 #headerMainMenu {margin-bottom:0px;min-height:inherit;position:absolute;top:126px;width:100%;}
 #headerMainMenu .navbar {margin-bottom:0px;}
 #headerMainMenu .nav li a {color:#ffffff;padding:5px 15px;}
@@ -389,6 +392,40 @@ h4 {
 		width: 65%;
 		height: 30px;
 		margin: 0 auto;
+	}
+	#headerMainMenu {
+		z-index: 100;
+		position: relative;
+		background: black;
+		top: 0px;
+	}
+	#headerMainMenu .nav li {
+		display: block;
+		background: none;
+		border-radius: none;
+	}
+	#headerMainMenu .nav a:hover {
+		border-radius:0px;
+	}
+	#headerMainMenu .nav li .subMenu {
+		display: block;
+		background: none;
+		border-radius: 0px;
+		position: inherit;
+		z-index: auto;
+		top: inherit;
+		
+	}
+	#headerMainMenu .nav .subMenu {
+		border: none;
+	}
+	#headerMainMenu .nav li a:hover,
+	#headerMainMenu .nav .subMenu li a:hover,
+	#headerMainMenu .nav .subMenu li		{
+		background: white;
+		border-radius:0px;
+		width: auto;
+		border: none;
 	}
 }
 .footer {
