@@ -357,9 +357,9 @@ h4 {
 }
 @media (min-width: 992px) {
 	.ms-ads-sidebar {
-		width: 286px;
+		width: 300px;
 		min-height: 200px;
-		margin-left: 37px;
+		margin-left: 39px;
 		background: #D2D2D2;
 		padding-top: 60px;
 	}
