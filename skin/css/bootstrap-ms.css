@@ -216,6 +216,12 @@ h4 {
 	/*max-width: 400px;
 	max-height: 350px;*/
 }
+#carousel-example-generic .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+	left:0%;
+}
+#carousel-example-generic .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
+	right:3%;
+}
 .main #carousel-example-generic {
 	height:auto;
 	background:none;
