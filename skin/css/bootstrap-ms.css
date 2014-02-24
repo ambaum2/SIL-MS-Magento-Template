@@ -446,8 +446,8 @@ h4 {
 	color:white;
 }
 .footer .nav li a:hover {
-	background: #cfdb0e;
-	color:black;
+	color: #CCFF66;
+	background: none;
 }
 .footer-container {
 	background: url("/skin/frontend/default/msil/images/footer.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -483,7 +483,26 @@ h4 {
 	list-style-position: outside;
 	margin-left: 18px;
 }
-
+/* category view */
+.catalog-category-view .page .main {
+	background: #D2D2D2;
+}
+.catalog-category-view .page .main .breadcrumbs {
+	background: #ffffff;
+	margin:0px;
+	padding:0px;
+}
+.catalog-category-view .page .main .breadcrumbs ul {
+	padding: 0px;
+}
+.catalog-category-view .page .main .ms-ads-sidebar {
+	min-width: inherit;
+	width: 255px;
+	margin:0px;
+}
+.catalog-category-view .page .main .ms-main-content {
+	background: #ffffff;
+}
 /* sil */
 
 .mspace-main-homepage .col-main .subtitle {color:#333399;font-family: 'Droid Sans', sans-serif;font-size:16px;}

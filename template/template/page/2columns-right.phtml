@@ -43,7 +43,6 @@
         <?php echo $this->getChildHtml('header') ?>
         <div class="main-container col2-right-layout">
             <div class="main container">
-                <?php echo $this->getChildHtml('breadcrumbs') ?>
                 <div class="col-main">
                 	<?php if($homepage) : ?>
                 		<div class="row ms-homepage">
@@ -85,10 +84,11 @@
                 	<?php elseif(is_null(Mage::registry('current_product'))) : //on a category page?>
                     <?php echo $this->getChildHtml('global_messages') ?>
                    	<div class="row">
-                   		<div class="col-md-9 col-sm-9">
+                   		<div class="col-md-9 col-sm-9 ms-main-content">
+                   			<?php echo $this->getChildHtml('breadcrumbs') ?>
                    			<?php echo $this->getChildHtml('content') ?>
                    		</div>
-                   		<div class="col-md-3 col-sm-3">
+                   		<div class="col-md-3 col-sm-3 ms-ads-sidebar">
                    			<div class="row">
                    				<?php echo $this->getChildHtml('right') ?>
                    			</div>
