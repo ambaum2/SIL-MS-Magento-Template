@@ -12,11 +12,12 @@
 				<div class="col-xs-6 col-md-3 ms-featured-item">
 					<div class='thumbnail'>
 						<?php 
-							$currProd = $_product->load($prod['product_id']);
+							$_product =  Mage::getModel('catalog/product')->load($prod['product_id']);
 						?>
-					  <a class="product-image" href="<?php print $currProd->getProductUrl() ?>">
-						<img src="<?php print $this->helper('catalog/image')->init($currProd, 'thumbnail')->resize(135)?>" /></a>
-						<a href="<?php print $currProd->getProductUrl() ?>"<h2 class='text-ms-label product-name'><?php print $currProd->getName() ?></h2></a>
+						<a href="<?php print $_product->getProductUrl() ?>">
+							<img src="<?php print $this->helper('catalog/image')->init($_product, 'thumbnail')->resize(135)?>" />
+							<h2 class='text-ms-label product-name'><?php print $_product->getName() ?></h2>
+						</a>
 					</div>
 				</div>
 			<?php $i++ ?>
