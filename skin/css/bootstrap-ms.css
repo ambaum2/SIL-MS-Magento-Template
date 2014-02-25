@@ -490,23 +490,28 @@ h4 {
 	margin-left: 18px;
 }
 /* category view */
-.catalog-category-view .page .main {
+.catalog-category-view .page .main,
+.catalogsearch-result-index .page .main .breadcrumbs {
 	background: #D2D2D2;
 }
-.catalog-category-view .page .main .breadcrumbs {
+.catalog-category-view .page .main .breadcrumbs,
+.catalogsearch-result-index .page .main .breadcrumbs {
 	background: #ffffff;
 	margin:0px;
 	padding:0px;
 }
-.catalog-category-view .page .main .breadcrumbs ul {
+.catalog-category-view .page .main .breadcrumbs ul,
+.catalogsearch-result-index .page .main .breadcrumbs ul {
 	padding: 0px;
 }
-.catalog-category-view .page .main .ms-ads-sidebar {
+.catalog-category-view .page .main .ms-ads-sidebar,
+.catalogsearch-result-index .page .main .ms-ads-sidebar {
 	min-width: inherit;
 	width: 255px;
 	margin:0px;
 }
-.catalog-category-view .page .main .ms-main-content {
+.catalog-category-view .page .main .ms-main-content,
+.catalogsearch-result-index .page .main .ms-main-content {
 	background: #ffffff;
 }
 /* sil */
