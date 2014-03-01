@@ -1,6 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Ubuntu+Condensed);
-body {background: #020547;color:#333399;}
-
+body {background: #020547;color:#000000;}
+/* legacy magento overrides - could potentially remove style2.css as well*/
+/* magento title overrides */
+.subtitle,
+.opc .active .step-title h2 {
+	color: #333399;
+}
+/* magento bold title overrides */
+.account-login .content h2,
+.fieldset .legend,
+.opc .active .step-title {
+	color: #669933;
+}
+/* magento clear heading overrides */
+.fieldset .legend,
+.opc .active .step-title {
+	background: #ffffff;
+	border: none;
+}
+/* magento strong heading overrides */
+.block-account .block-title,
+.opc .active .step-title .number {
+	background: #3a7542;
+	border: none;	
+}
 h1, h2, h3, h4, h5 {color:#333399;}
 .well {
 	background:#cccccc;
@@ -370,6 +393,10 @@ h4 {
 	margin: 0 auto;
 }
 @media (min-width: 992px) {
+	.catalog-category-view .page .main .ms-category-content,
+	.catalogsearch-result-index .page .main .ms-category-content {
+		width: 720px;
+	}
 	.ms-ads-sidebar {
 		width: 300px;
 		min-height: 200px;
@@ -377,15 +404,29 @@ h4 {
 		background: #D2D2D2;
 		padding-top: 60px;
 	}
+	.catalog-category-view .page .main .ms-ads-sidebar,
+	.catalogsearch-result-index .page .main .ms-ads-sidebar {
+		width: 299px;
+		margin-left: 0px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+	.catalog-category-view .page .main .ms-category-content,
+	.catalogsearch-result-index .page .main .ms-category-content {
+		width: 530px;
+	}
 	.ms-ads-sidebar {
 		width: 220px;
 		min-height: 200px;
 		margin-left: 30px;
 		background: #D2D2D2;
 		padding-top: 0px;
+	}
+	.catalog-category-view .page .main .ms-ads-sidebar,
+	.catalogsearch-result-index .page .main .ms-ads-sidebar {
+		width: 220px;
+		margin-left: 0px;
 	}
 }
 @media (max-width: 767px) {
@@ -493,6 +534,7 @@ h4 {
 	margin-left: 18px;
 }
 /* category view */
+
 .catalog-category-view .page .main,
 .catalogsearch-result-index .page .main .breadcrumbs {
 	background: #D2D2D2;
@@ -507,16 +549,11 @@ h4 {
 .catalogsearch-result-index .page .main .breadcrumbs ul {
 	padding: 0px;
 }
-.catalog-category-view .page .main .ms-ads-sidebar,
-.catalogsearch-result-index .page .main .ms-ads-sidebar {
-	min-width: inherit;
-	width: 255px;
-	margin:0px;
-}
+
 .catalog-category-view .page .main .ms-main-content,
 .catalogsearch-result-index .page .main .ms-main-content {
 	background: #ffffff;
 }
-/* sil */
 
+/* sil */
 .mspace-main-homepage .col-main .subtitle {color:#333399;font-family: 'Droid Sans', sans-serif;font-size:16px;}
