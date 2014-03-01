@@ -103,7 +103,7 @@ h4 {
 	background: linear-gradient(to bottom, #b0b931 0%,#77800a 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b931', endColorstr='#77800a',GradientType=0 ); /* IE6-8 */
 }
-@media (min-width: 1020px) {
+@media (min-width: 992px) {
 	.ms-home-about {
 		margin-left:-15px;
 		margin-top:20px;
@@ -111,7 +111,7 @@ h4 {
 	.offer-text {
 		
 	}
-	.ms-right-sidbar-homepage {
+	.ms-right-sidebar-homepage {
 		/*background: url("/skin/frontend/default/default/images/ms/About_CMS.jpg") no-repeat scroll 50% 100% rgba(0, 0, 0, 0);*/
     height: 416px;
    }
@@ -121,7 +121,7 @@ h4 {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1020px) {
+@media (min-width: 768px) and (max-width: 992px) {
 	.ms-home-about {
 		margin-left:-15px;
 		margin-top:20px;
@@ -134,7 +134,7 @@ h4 {
 		margin:0px 10px 8px 8px;
 		font-size:11px;
 	}
-	.ms-right-sidbar-homepage {
+	.ms-right-sidebar-homepage {
 		/*background: url("/skin/frontend/default/default/images/ms/About_CMS.jpg") no-repeat scroll 50% 100% rgba(0, 0, 0, 0);*/
     height: 322px;
    }
@@ -363,10 +363,10 @@ h4 {
 .ms-homepage .ms-slideshow { /* div[class^='col-md-']*/
 	padding-left:0px;
 }
-.ms-right-sidbar-image {
+.ms-right-sidebar-image {
 	margin: 0 auto;
 }
-@media (min-width: 1020px) {
+@media (min-width: 992px) {
 	.ms-ads-sidebar {
 		width: 300px;
 		min-height: 200px;
@@ -376,7 +376,7 @@ h4 {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1020px) {
+@media (min-width: 768px) and (max-width: 992px) {
 	.ms-ads-sidebar {
 		width: 220px;
 		min-height: 200px;
