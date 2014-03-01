@@ -155,6 +155,9 @@ h4 {
 .ms-featured-and-ads .well {
 	padding-top:0px;
 }
+.ms-featured {
+	padding-right: 10px;
+}
 .product-essential {
 	background:none;
 }
