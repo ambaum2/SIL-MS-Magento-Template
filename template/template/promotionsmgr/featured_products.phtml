@@ -11,9 +11,7 @@
 			<?php endif; ?>
 				<div class="col-xs-6 col-md-3 ms-featured-item">
 					<div class='thumbnail'>
-						<?php 
-							$_product =  Mage::getModel('catalog/product')->load($prod['product_id']);
-						?>
+						<?php $_product =  Mage::getModel('catalog/product')->load($prod['product_id']); ?>
 						<a href="<?php print $_product->getProductUrl() ?>">
 							<img src="<?php print $this->helper('catalog/image')->init($_product, 'thumbnail')->resize(135)?>" />
 							<h2 class='text-ms-label product-name'><?php print $_product->getName() ?></h2>
