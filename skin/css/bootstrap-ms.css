@@ -1,12 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Ubuntu+Condensed);
 body {background: #020547;color:#000000;}
+.cms-page-view .main ul {
+    list-style-position: inside;
+    list-style-type: disc;
+}
 ul {
-	list-style-position: inside;
-	list-style-type: disc;
+    list-style-type: none;
 }
-ul .item, ul .subLink, .block-content ul li  {
-	list-style-type: none;
-}
+
 /* legacy magento overrides - could potentially remove style2.css as well*/
 /* magento title overrides */
 .subtitle,

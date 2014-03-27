@@ -48,7 +48,7 @@
                 	<?php if($homepage) : ?>
                 		<div class="row ms-homepage">
                 			<div class="col-md-12 col-sm-12 ms-slideshow">
-												<?php echo $this->getChildHtml('image_rotator'); ?>
+								<?php echo $this->getChildHtml('image_rotator'); ?>
                 			</div>
                 		</div>
                 		<div class="row ms-featured-and-ads">
@@ -73,9 +73,9 @@
                         <div class="row text-center">
                           <div>
                           	<div style="height: 30px;"></div>
-                            <!--<a target="_blank" href="https://www.facebook.com/communitymarketspace" type="button" class="btn ms-no-left-right-pad">                             
-                              <img src="/skin/frontend/default/default/images/ms-facebook.jpg" />
-                            </a>                              
+                            <a target="_blank" href="https://www.facebook.com/communitymarketspace" type="button" class="btn ms-no-left-right-pad">
+                              <img src="<?php print $this->getSkinUrl() . '/images/SI_Facebook.png'; ?>" />
+                            </a> <!--
                             <a target="_blank" href="https://twitter.com/BoldlyLocal" type="button" class="btn ms-no-left-right-pad">
                               <img src="/skin/frontend/default/default/images/ms-twitter.jpg" />
                             </a>-->
