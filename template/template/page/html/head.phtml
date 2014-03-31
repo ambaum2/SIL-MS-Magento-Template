@@ -37,14 +37,13 @@ $_product = Mage::registry('current_product');
 <!-- Facebook Meta Info -->
 <meta property="og:title" content=" <?php echo $this->getTitle() ?>"/>
 
-
 <?php if(isset($_product)) : ?>
     <meta property="og:image" content="<?php echo Mage::helper('catalog/image')->init(Mage::registry('current_product'), 'small_image')->resize(100,100);?>" />
     <meta property="og:url" content="<?php echo $_product->getProductUrl() ?>"/>
     <meta property="og:description" content="<?php echo strip_tags($_product->getShortDescription()) ?>"/>
 <?php else: ?>
-    <meta property="og:image" content="http://escapelocally.com/skin/frontend/default/default/images/Din Font 60 Transparency stretched emboss bevel Both Southern Illinois.png" />
-    <meta property="og:url" content="http://www.escapelocally.com"/>
+    <meta property="og:image" content="<?php print Mage::getBaseUrl('media') . "email/logo/" .  Mage::getStoreConfig('design/email/logo');//print Mage::getDesign()->getSkinUrl() . ""; ?>" />
+    <meta property="og:url" content="https://www.southernillinoismarketspace.com"/>
     <meta property="og:description" content=""/>
 <?php endif; ?>
 <!--[if lt IE 7]>
@@ -62,7 +61,7 @@ $_product = Mage::registry('current_product');
     }
   </style>
 <![endif]-->
-
+<script type="text/javascript" src="<?php print Mage::getDesign()->getSkinUrl() . "scripts/google_analytics.js"; ?>"></script>
 <?php echo $this->getCssJsHtml() ?>
 <?php echo $this->getChildHtml() ?>
 <?php echo $this->helper('core/js')->getTranslatorScript() ?>
